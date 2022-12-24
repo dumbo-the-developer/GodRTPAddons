@@ -1,0 +1,11 @@
+main: me.adarsh.GodRTPAddons.Main
+version: ${project.version}
+api-version: '1.13'
+name: GodRTPAddons
+depend: [BetterRTP]
+softdepend: [ProtocolLib]
+
+permissions:
+  godrtp.addon.portals:
+    description: Ability to use the portals addon commands
+
